@@ -1,0 +1,198 @@
+
+body
+{
+    font-family: 'Poppins', Helvetica, arial, sans-serif
+    
+}
+
+
+.navbar
+{
+    background-color: #000;
+    
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    
+}
+.navbar li a
+{
+    
+    
+    padding: 20px 30px;
+    transition: all 0.5s ;
+    font-weight: 400
+    
+}
+
+
+.navbar li 
+{
+    
+    padding: 0px 10px;
+    
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link:hover 
+{
+    
+    color: red;
+    
+}
+
+
+.home
+{
+ 
+    height: 650px;
+    background-image: url(../imgs/cover.jpg);
+    background-position: center right;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.home-lyer
+{
+    
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(236, 51, 55, 0.7);
+}
+
+.home .home-arrow
+{
+    
+    
+    font-size: 35px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    animation: 1.5s homeaimation ease-out infinite;
+    color: white;
+}
+
+@keyframes homeaimation
+{
+    
+    0%{  
+     
+        left: 50%;
+        bottom: 30px;
+    
+    }
+    
+    
+    
+    50%{
+        
+        
+        left: 50%;
+        bottom: 45px;
+
+    }
+    
+    
+    100%{  
+     
+        left: 50%;
+        bottom: 30px;
+    
+    }
+    
+    
+}
+
+
+.home-info h1
+{
+    font-size: 53px;
+    text-shadow:  0px 5px 10px #af2424;
+    font-weight:700; 
+}
+
+.home-info p
+{
+    font-size: 25px;
+    
+}
+.border-bottom
+{
+    
+    border-bottom:10px solid red;
+    
+}
+
+
+.custom-btn
+{
+    color: #FFF;
+    border-radius:0px;
+    border: 2px solid white;
+    padding: 10px 40px;
+    transition: 0.5s all
+    
+}
+
+.custom-btn:hover
+{
+    
+    background-color: #FFF;
+    border-color: #fff;
+    color:red;
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 700px)
+{
+    .home h1 
+    {
+        
+        font-size: 25px;
+        
+        
+    }
+     .home p
+    {
+        
+        font-size: 15px;
+        
+        
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
