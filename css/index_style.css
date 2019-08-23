@@ -412,10 +412,53 @@ portfolio
 }
 
 
+.slider
+{
+    
+    background-image: url(../imgs/client-testimonial.jpg);
+    background-size: cover;
+    
+}
+
+.slider .rounded-div
+{
+    
+    border: 5px solid red;
+    border-radius: 100%;
+    background-image: url(../imgs/branding-three.jpg);
+    background-size: cover;
+    height: 125px;
+    
+    
+}
 
 
 
 
+
+
+@media only screen and (max-width: 700px)
+{
+    .home h1 
+    {
+        
+        font-size: 25px;
+        
+        
+    }
+     .home p
+    {
+        
+        font-size: 15px;
+        
+        
+    }
+    
+    
+    
+    
+}
+    
 
 
 
