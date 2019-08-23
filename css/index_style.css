@@ -330,6 +330,86 @@ body
 
 
 }
+portfolio
+{
+    
+    background-color: #f5f5f5;
+    
+}
+.portfolio .port-info
+
+{
+    
+   position: relative;
+    
+}
+.portfolio .my-port .search
+
+{
+    
+    width: 35px ;
+    height: 35px;
+    border-radius: 100%;
+    position: absolute;
+    top: -19px;
+    left: 45%;
+    background-color: black;
+}
+
+
+.portfolio .portfolio-btn
+
+{
+    
+    color: #000;
+    border: 2px solid #ddd;
+    
+    
+    
+}
+.portfolio .portfolio-btn:hover
+{
+    background-color: #f5f5f5;
+    color: red;
+    border: 2px solid red;
+
+    
+}
+.portfolio .my-port .search i
+
+{
+    
+    font-size: 20px;
+    color: #fff;
+}
+
+.portfolio .my-port:hover .search
+
+{
+    
+    background-color: red;
+}
+
+.
+
+
+.my-port .port-info h3
+{
+    font-size: 18px;
+    font-weight: 700
+    
+    
+}
+
+.hire-me .contact-form input
+{
+    border: 3px solid #eee;
+    
+}.hire-me .contact-form textarea
+{
+    border: 3px solid #eee;
+    
+}
 
 
 
